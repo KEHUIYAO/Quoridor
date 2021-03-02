@@ -10,7 +10,7 @@ from mcts import MCTSPlayer
 
 
 class TrainPipeline(object):
-    def __init__(self, init_model='current_policy'):
+    def __init__(self, init_model=None):
         # 棋盘参数
         self.game = Quoridor()
         # 训练参数
